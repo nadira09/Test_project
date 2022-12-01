@@ -98,3 +98,4 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 
 t.first_pd.to_sql('table_first', engine, if_exists='replace', index=False)
 t.second_pd.to_sql('table_second', engine, if_exists='replace', index=False)
+
